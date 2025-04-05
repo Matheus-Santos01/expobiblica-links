@@ -84,9 +84,13 @@ body {
   border: 1.5px solid var(--text-color);
 }
 
-@media (min-width:700px) {
-  :root{
+@media (min-width: 700px) {
+  :root {
     --bg-url: url(../assets/bg-reforma-mobile.jpg);
+  }
+
+  .links .links-list {
+    grid-template-columns: 1fr; /* uma coluna no mobile */
   }
 }
 
